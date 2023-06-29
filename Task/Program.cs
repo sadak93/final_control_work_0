@@ -8,3 +8,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
+Console.Clear();
+System.Console.WriteLine("Введите количество строк: ");
+int num = Convert.ToInt32(Console.ReadLine());
+string[] array = new string[num];
