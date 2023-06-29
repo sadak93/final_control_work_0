@@ -25,6 +25,15 @@ void PrintArray(string[] array)
     }
 }
 
+void PrintSortArray(string[] array)
+{
+    foreach (string str in array)
+    {
+        if (str.Length <= 3)
+            System.Console.Write($"{str}; ");
+    }
+}
+
 Console.Clear();
 System.Console.WriteLine("Введите количество строк: ");
 int num = Convert.ToInt32(Console.ReadLine());
